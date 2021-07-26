@@ -10,7 +10,7 @@ int digPow(int n, int p)
     int temp = n;
     int *num = (int *)calloc(20, sizeof(int));
     int len = 0;
-    for (; temp != 0; len++)
+    for (; temp != 0; len++)//原来判断数字位数出错！！！
     {
         num[len] = temp % 10;
         temp /= 10;
@@ -43,7 +43,15 @@ int digPow(int n, int p)
 //   }
 //   return -1;
 // }
-
+int main()
+{
+    printf("%d\n", digPow(46288, 3));
+    printf("%d\n", digPow(89, 1));
+    printf("%d\n", digPow(114, 3));
+    printf("%d\n", digPow(92, 1));
+    printf("%d\n", digPow(200, 2));
+    return 0;
+}
 int main()
 {
     printf("%d\n", digPow(46288, 3));
