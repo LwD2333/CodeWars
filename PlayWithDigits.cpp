@@ -52,12 +52,3 @@ int main()
     printf("%d\n", digPow(200, 2));
     return 0;
 }
-int main()
-{
-    printf("%d\n", digPow(46288, 3));
-    printf("%d\n", digPow(89, 1));
-    printf("%d\n", digPow(114, 3));
-    printf("%d\n", digPow(92, 1));
-    printf("%d\n", digPow(200, 2));
-    return 0;
-}
