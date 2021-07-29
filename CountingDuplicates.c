@@ -30,7 +30,7 @@ int main(){
 }
 //#include <stddef.h>
 
-// size_t duplicate_count(const char* text) {
+// size_t duplicate_count(const char* text) { solution from others
 //   int freq[128] = {0}, dups = 0;
 //   while (*text) dups += ++freq[tolower(*text++)] == 2;
 //   return dups;
